@@ -18,7 +18,7 @@ public class SwaggerConfig {
 	@Bean
 	public OpenAPI springBlogPessoalOpenAPI() {
 		return new OpenAPI()
-				.info(new Info()
+					.info(new Info()
 					.title("Projeto Blog Pessoal")
 					.description("Projeto Blog Pessoal - Generation Brasil")
 					.version("v0.0.1")
